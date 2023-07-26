@@ -157,7 +157,7 @@
  }
 
  .card-text{
-    font-size: 1.4rem;
+    font-size: 1rem; 
  }
 
  .carousel-img{
@@ -177,9 +177,6 @@
     .carousel-img{
         width: 100%;
      }
-     .card-text{
-        font-size: 1.2rem;
-     }
  }
 
  @media (max-width:576px){
@@ -194,9 +191,6 @@
     .carousel-title{
         font-size: 0.8rem;
     }
-    .card-text{
-        font-size: 1rem;
-     }
      h4{
         font-size: 1.2rem;
      }

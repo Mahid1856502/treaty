@@ -14,7 +14,7 @@ const Services = ({ services }) => {
             className="mb-3"
           />
         </Col>
-        <Col md={6} className="mt-3">
+        <Col md={6} className="mt-3 pt-3">
           <h3 className="text-primary fw-bold">OUR AMAZING SERVICES</h3>
           <h1 className="fw-bold">Engage the families you serve</h1>
           <img src={IMAGES.BARS} alt="" />

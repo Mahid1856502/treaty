@@ -49,7 +49,7 @@ export default function Header(props) {
             {navLinks.map((item) => (
               <div>
                 <Nav.Link
-                  className={`ms-3 text-primary fw-regular fs-md d-flex justify-content-center nav-parent ${
+                  className={`ms-3 text-primary fw-semibold fs-md d-flex justify-content-center nav-parent ${
                     active === item.label ? "active" : ""
                   }`}
                   onClick={() => {
@@ -69,7 +69,7 @@ export default function Header(props) {
               </div>
             ))}
             <Button
-              className="ms-3 rounded-pill fs-sm my-md-0 my-2"
+              className="ms-md-5 ms-3 rounded-pill fs-md fw-medium my-md-0 my-2"
               variant="outline-primary"
             >
               Login/Register

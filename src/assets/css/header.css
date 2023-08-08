@@ -3,7 +3,7 @@
 }
 
 .text-primary {
-  color: #06d2dd !important;
+  color: #4eb7c4 !important;
 }
 
 .btn-primary:active,
@@ -11,7 +11,7 @@
 .btn-primary:hover,
 .btn-primary{
     box-shadow: none;
-    background-color: #06d2dd;
+    background-color: #4eb7c4;
     border-radius: 5px;
     color: #fff;
     height: 50px;
@@ -19,24 +19,24 @@
     border: 0;
 }
 .btn-outline-primary {
-  border: #06d2dd 1px solid;
-  color: #06d2dd;
+  border: #4eb7c4 1px solid;
+  color: #4eb7c4;
   padding:0 1rem;
   height: 40px;
 }
 
 .btn-outline-primary:active,
 .btn-outline-primary:hover {
-  border: #dc4742 1px solid;
-  background-color: #dc4742;
+  border: #4eb7c4 1px solid;
+  background-color: #4eb7c4;
   color: white;
 }
 
 .btn-outline-primary:focus {
   outline: none;
   box-shadow: none !important;
-  border: #dc4742 1px solid;
-  background-color: #dc4742;
+  border: #4eb7c4 1px solid;
+  background-color: #4eb7c4;
   color: white;
 }
 
@@ -57,7 +57,7 @@
     background-color: #dc4742;
     border-radius: 15px;
     position: absolute;
-    bottom: -26px;
+    bottom: -25px;
 }
 
 .pointer {
@@ -66,8 +66,8 @@
 
 .main-logo {
   font-weight: 400;
-  letter-spacing: 3px;
-  font-size: 2.2rem;
+  letter-spacing: 1px;
+  font-size: 1.6rem;
 }
 
 .carousel-title{
@@ -109,6 +109,10 @@
     font-size: 1.05rem;
 }
 
+.fs-lg{
+  font-size: 1.25rem;
+}
+
 .text-secondary{
     color: #d4d4d4;
 }
@@ -130,12 +134,12 @@
 }
 
 .feature-icon{
-    width: 80%;
+    width: 70%;
 }
 
 .feature-icon-bg{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -153,15 +157,11 @@
  */
 
  .main-logo-icon{
-    width: 60px;
+    width: 50px;
  }
 
  .card-text{
-    font-size: 1rem; 
- }
-
- .service-details{
-  font-size: 1.2rem; 
+    font-size: 1rem;
  }
 
  .carousel-img{
@@ -175,15 +175,15 @@
     .main-logo-icon{
         width: 40px;
     }
-    .service-details{
-      font-size: 1.1rem; 
-     }
     .carousel-title{
         font-size: 1rem;
     }
     .carousel-img{
         width: 100%;
      }
+     /* .card-text{
+        font-size: 1.2rem;
+     } */
  }
 
  @media (max-width:576px){
@@ -198,9 +198,9 @@
     .carousel-title{
         font-size: 0.8rem;
     }
-    .service-details{
-      font-size: 1rem; 
-     }
+    /* .card-text{
+        font-size: 1rem;
+     } */
      h4{
         font-size: 1.2rem;
      }

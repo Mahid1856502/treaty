@@ -30,9 +30,9 @@ export default function ContactUs({ contact }) {
 
   return (
     <Container fluid className="px-4 px-sm-5 pb-5" ref={contact}>
-      <Row className="my-5 py-5">
-        <Col md={4}>
-          <h4 className="text-primary">STAY IN TOUCH</h4>
+      <Row className="mt-5">
+        <Col md={5}>
+          <h3 className="text-primary fw-bold">STAY IN TOUCH</h3>
           <h1 className="mb-1 fw-bold">Contact us</h1>
           <img src={IMAGES.BARS} alt="" />
           <Row>
@@ -69,25 +69,25 @@ export default function ContactUs({ contact }) {
             >
               <div>
                 <img
-                  className="me-2 me-lg-4 mt-3"
+                  className="me-2 me-lg-4 mt-0"
                   src={IMAGES.FB}
                   alt=""
                   style={{ width: "3rem", cursor: "pointer" }}
                 />
                 <img
-                  className="me-2 me-lg-4 mt-3"
+                  className="me-2 me-lg-4 mt-0"
                   src={IMAGES.TWITTER}
                   alt=""
                   style={{ width: "2.9rem", cursor: "pointer" }}
                 />
                 <img
-                  className="me-2 me-lg-4 mt-3"
+                  className="me-2 me-lg-4 mt-0"
                   src={IMAGES.INSTA}
                   alt=""
                   style={{ width: "2.9rem", cursor: "pointer" }}
                 />
                 <img
-                  className="me-2 me-lg-4 mt-3"
+                  className="me-2 me-lg-4 mt-0"
                   src={IMAGES.YOUTUBE}
                   alt=""
                   style={{ width: "2.9rem", cursor: "pointer" }}
@@ -96,7 +96,7 @@ export default function ContactUs({ contact }) {
             </Col>
           </Row>
         </Col>
-        <Col md={8}>
+        <Col md={7}>
           <Card className="p-4 p-md-5 border-0 rounded-0 shadow">
             <Form noValidate validated={validated} onSubmit={handleSubmit}>
               <Row>

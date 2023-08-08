@@ -34,7 +34,7 @@ export default function Features({ about }) {
     <Container ref={about} fluid className="px-4 px-sm-5">
       <Row className="d-flex justify-content-around my-5 py-2">
         {features.map((item) => (
-          <Col xs="8" sm="4" md="3" lg="2" className="mt-3 p-0">
+          <Col xs="8" sm="6" md="6" lg="2" className="mt-3 p-0">
             <Card className="border-0 d-flex align-items-center">
               <div className="border feature-icon-bg">
                 <img
@@ -44,7 +44,7 @@ export default function Features({ about }) {
                 />
               </div>
               <Card.Body className="text-center">
-                <Card.Title>{item.title}</Card.Title>
+                <Card.Title className="fw-bold">{item.title}</Card.Title>
                 <Card.Text className="fs-sm text-secondary">
                   {item.desc}
                 </Card.Text>

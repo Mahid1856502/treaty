@@ -28,7 +28,7 @@ const HeroSection = ({ home }) => {
           <Carousel.Item>
             <div className="v-center d-flex align-items-center justify-content-center">
               <div className="w-75">
-                <h5 className="text-white text-center px-md-5 px-0 fw-regular carousel-title">
+                <h5 className="text-white text-center px-md-5 px-0 fw-medium carousel-title">
                   {item.title}
                 </h5>
                 <img
